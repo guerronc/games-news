@@ -1,15 +1,12 @@
-
 # Installation developer environment
-
 Install the dependencies and dev dependencies
 
-
 ## Dependencies
-npm i react react-dom
+npm i react react-dom react-helmet
 
 ## Development Dependencies
 
-### Sass (CSS with powers)
+### Sass (CSS with superpowers)
 ```sh
 npm i -D sass
 ```
@@ -37,9 +34,14 @@ npm i -D babel-loader file-loader html-webpack-plugin sass-loader
 |-------| ------ |
 |html-webpack-plugin| readme |
 
-
-
 # Scripts
 Start scripts at different environments
 ## Development
+```sh
+npm run build:dev
+npm run server:dev
+```
 ## Production
+```sh
+npm run build
+```
