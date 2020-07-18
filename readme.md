@@ -9,7 +9,7 @@ npm i react react-dom
 
 ## Development Dependencies
 
-### Sass (CSS whit powers)
+### Sass (CSS with powers)
 ```sh
 npm i -D sass
 ```
