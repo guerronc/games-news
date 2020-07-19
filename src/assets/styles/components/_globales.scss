@@ -1,0 +1,14 @@
+@import "./commons";
+
+body {
+  margin: 0;
+  background-color: #f9fafc;
+  color: $color-primario;
+  @include titulos($Fuente1);
+  @include font-size(18px);
+}
+
+main {
+  margin: 0;
+  padding: 0;
+}
