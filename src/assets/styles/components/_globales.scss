@@ -1,5 +1,13 @@
 @import "./commons";
 
+@each $header, $size in (h1: 30px, h2: 25px, h3: 20px) {
+  #{$header} {
+    font-size: $size;
+    @include titulos($Fuente2);
+    margin: 0;
+  }
+}
+
 body {
   margin: 0;
   background-color: #f9fafc;

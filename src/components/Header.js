@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo";
+import {LogoHeader} from "./Logos";
 import "../assets/styles/components/_headers.scss";
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header--principal">
       <div className="container">
         <div className="logo logo--header">
-          <Logo width="300px" height="75px" />
+          <LogoHeader width="300px" height="75px" />
         </div>
         <nav className="nav--header">
           <ul>

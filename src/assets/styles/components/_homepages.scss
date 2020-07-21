@@ -3,16 +3,10 @@
 @import "./grids";
 @import "./cajas";
 @import "./estadisticas";
-@import "./sidebars";
-@import "./banners";
 
 .contenedor--home {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  @include media(desktop-s) {
-    height: 1200px;
-    width: 1300px;
+  .container{
+    max-width: 1024px;
     margin: 0 auto;
     @include display-grid;
     @include grid-template-columns(1fr grid-repeat(3));

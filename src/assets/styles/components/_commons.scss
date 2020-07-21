@@ -43,17 +43,3 @@ $color-claro: #fff;
   font-size: calculateRem($size);
   line-height: calculateRem($size) * 1.5;
 }
-
-@each $header, $size in (h1: 30px, h2: 25px, h3: 20px) {
-  #{$header} {
-    font-size: $size;
-    @include titulos($Fuente2);
-    margin: 0;
-  }
-}
-
-.container {
-  max-width: 1024px;
-  margin: 0 auto;
-  display: flex;
-}

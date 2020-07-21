@@ -1,7 +1,8 @@
+@import "./commons";
+
 .banner--homepage {
   max-width: 300px;
   padding: 50px;
-  margin-bottom: 20px;
   background-color: $color-secundario;
   color: $color-claro;
   h3 {

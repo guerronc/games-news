@@ -1,14 +1,10 @@
 import React from "react";
-import Logo from "./Logo";
 import "../assets/styles/components/_footers.scss";
 
 const Footer = () => {
   return (
     <footer className="footer--principal">
       <div className="container">
-        {/* <div className="logo logo--footer">
-          <Logo width="300px" height="75px" />
-        </div> */}
         <nav className="nav--footer">
           <ul>
             <li>
